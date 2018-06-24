@@ -1,0 +1,28 @@
+.block_inner {
+    width: 200px;
+    height: 530px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #eeebeb;
+}
+.block_circle {
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #eeebeb;
+}
+.color_red {
+    background-color: red;
+}
+.color_yellow {
+    background-color: yellow;
+}
+.color_green {
+    background-color: green;
+}

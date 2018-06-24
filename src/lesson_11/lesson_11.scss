@@ -1,0 +1,53 @@
+@import 'styles/base.scss';
+
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 30px;
+    background: #455A64;
+}
+h3 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+.container {
+    border-radius: 5px;
+    position: relative;
+}
+div[class*='col-'] {
+    padding: 0 30px;
+}
+.panel-group {
+    margin-bottom: 0;
+    
+    &__title {
+       
+        padding: 20px 25px;
+        background-color: #009688;
+        color: #fff;
+        font-weight: 500; 
+        font-size: 35px;   
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+        margin: 0;
+    }
+    &__body {
+        padding: 25px;
+        display: none;
+        margin-bottom: 0;
+        background: #fff;
+    }
+}
+.panel-active {
+	margin-bottom: 0;
+	border-bottom: 0;
+}
+.active {
+	display: block;
+}
