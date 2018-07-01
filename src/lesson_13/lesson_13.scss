@@ -1,0 +1,13 @@
+@import './components/lamp/lamp.scss';
+@import './components/toggleBtn/toggleBtn.scss';
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-image: linear-gradient(45deg, rgba(221, 225, 238, 0.534) 25%, transparent 25%, transparent 74%, rgba(221, 225, 238, 0.534) 75%, rgba(221, 225, 238, 0.534)), 
+    linear-gradient(45deg,rgba(221, 225, 238, 0.534) 25%, transparent 25%, transparent 74%, rgba(221, 225, 238, 0.534) 75%, rgba(221, 225, 238, 0.534));
+    background-size: 30px 30px;
+    background-position: 0 0, 15px 15px;
+}

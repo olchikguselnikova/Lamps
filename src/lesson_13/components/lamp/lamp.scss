@@ -1,0 +1,41 @@
+    .place-for-lamps {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 15px;
+        height: 80px;
+        :nth-child(2n+1) {
+            .lamp__circle_toggled {
+                background-color: rgb(105, 162, 248);
+            }
+        }
+    }
+    .lamp {
+        height: 100%;
+        flex-direction: column;
+        margin-right: 10px;
+        
+        &__circle {
+            margin-bottom: 10px;
+            border: 1px solid black;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            background-color: rgb(192, 213, 245);
+            &_toggled {
+                background-color: rgb(243, 243, 81);
+            }
+        }
+        
+        &__button {
+            background-color: rgb(192, 213, 245);
+            border: 1px solid black;
+            position: relative;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            width: 60px;
+            &_toggled {
+                background-color: rgb(94, 230, 90);
+            }
+        }
+    }
+    

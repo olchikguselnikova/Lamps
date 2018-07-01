@@ -60,30 +60,47 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 331);
+/******/ 	return __webpack_require__(__webpack_require__.s = 340);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ 331:
+/***/ 340:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(332);
+module.exports = __webpack_require__(341);
 
 
 /***/ }),
 
-/***/ 332:
+/***/ 341:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-__webpack_require__(333);
+__webpack_require__(342);
+
+var acc = document.getElementsByClassName("panel-group__title");
+var i = void 0;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+
+        this.classList.toggle("active");
+
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
 
 /***/ }),
 
-/***/ 333:
+/***/ 342:
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin

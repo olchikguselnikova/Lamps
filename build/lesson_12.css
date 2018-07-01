@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+  font-size: 30px;
+  background: #455A64;
+  width: 50%; }
+
+h3 {
+  color: #fff;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+  font-weight: 300; }
+
+.container {
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 970px; }
+
+div[class*='col-'] {
+  padding: 0 30px; }
+
+.panel-group {
+  margin-bottom: 0; }
+  .panel-group__title {
+    padding: 25px 25px;
+    background-color: #009688;
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+    border-bottom: 2px solid #ddd;
+    cursor: pointer;
+    margin: 0; }
+  .panel-group__body {
+    padding: 25px;
+    display: none;
+    margin-bottom: 0;
+    background: #fff; }
+  .panel-group__title:before {
+    content: '\E316';
+    font-family: 'Material Icons';
+    font-size: 45px;
+    color: #fff;
+    float: right;
+    margin-left: 5px;
+    -ms-transform: rotate(180deg);
+        transform: rotate(180deg);
+    transition: all 0.5s; }
+
+.container:last-child {
+  border-bottom: none; }
+
+.panel-active {
+  margin-bottom: 0;
+  border-bottom: 0; }
+
+.active:before {
+  display: block;
+  -ms-transform: rotate(0deg);
+      transform: rotate(0deg);
+  transition: all 0.5s; }

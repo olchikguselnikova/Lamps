@@ -1,0 +1,115 @@
+.place-for-lamps {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-right: 15px;
+  height: 80px; }
+  .place-for-lamps :nth-child(2n+1) .lamp__circle_toggled {
+    background-color: #69a2f8; }
+
+.lamp {
+  height: 100%;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin-right: 10px; }
+  .lamp__circle {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #c0d5f5; }
+    .lamp__circle_toggled {
+      background-color: #f3f351; }
+  .lamp__button {
+    background-color: #c0d5f5;
+    border: 1px solid black;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 60px; }
+    .lamp__button_toggled {
+      background-color: #5ee65a; }
+
+.place-for-toggleBtn {
+  height: 60px;
+  width: 85px;
+  margin-right: 15px; }
+  .place-for-toggleBtn button {
+    height: 100%;
+    width: 100%;
+    background-color: #c0d5f5;
+    border: 1px solid black;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; }
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  background-color: white;
+  background-image: linear-gradient(45deg, rgba(221, 225, 238, 0.534) 25%, transparent 25%, transparent 74%, rgba(221, 225, 238, 0.534) 75%, rgba(221, 225, 238, 0.534)), linear-gradient(45deg, rgba(221, 225, 238, 0.534) 25%, transparent 25%, transparent 74%, rgba(221, 225, 238, 0.534) 75%, rgba(221, 225, 238, 0.534));
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px; }
+.place-for-lamps {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-right: 15px;
+  height: 80px; }
+  .place-for-lamps :nth-child(2n+1) .lamp__circle_toggled {
+    background-color: #69a2f8; }
+
+.lamp {
+  height: 100%;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  margin-right: 10px; }
+  .lamp__circle {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #c0d5f5; }
+    .lamp__circle_toggled {
+      background-color: #f3f351; }
+  .lamp__button {
+    background-color: #c0d5f5;
+    border: 1px solid black;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 60px; }
+    .lamp__button_toggled {
+      background-color: #5ee65a; }
+.place-for-toggleBtn {
+  height: 60px;
+  width: 85px;
+  margin-right: 15px; }
+  .place-for-toggleBtn button {
+    height: 100%;
+    width: 100%;
+    background-color: #c0d5f5;
+    border: 1px solid black;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; }
+.place-for-addBtn {
+  height: 60px;
+  width: 85px;
+  margin-right: 15px; }
+  .place-for-addBtn button {
+    height: 100%;
+    width: 100%;
+    background-color: #c0d5f5;
+    border: 1px solid black;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; }
